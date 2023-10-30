@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- bootstrap css CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <!-- css linked -->
+    <link rel="stylesheet" href="style.css">
+    <title>Guesing-Game</title>
+</head>
+<body>
+    <div class="container-fluid bg-container">
+        <div class="row bg-white">
+            <div class="col-12 col-md-6 m-auto py-5">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/guess-game-img.png" alt="Guesing-Game-Image" class="guess-game-img">
+                <p class="text-center game-description">
+                    Find out the right number between 1 to 100
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center guess-bg-container">
+                <h1 class="guess-heading">
+                    Guess the number
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/guess-number-img.png" class="guess-number-img" alt="guess-number-image">
+                </h1>
+                <input type="text" class="user-input" id="userInput">
+                <div>
+                    <button class="btn btn-info check-guess">
+                        check
+                    </button>
+                </div>
+                <p class="game-result" id="gameResult"></p>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- local js linked -->
+    <script src="script.js"></script>
+
+    <!-- bootstrap js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
